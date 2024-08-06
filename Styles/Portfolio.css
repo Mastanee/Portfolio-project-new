@@ -50,6 +50,7 @@ h1 {
 }
 h2 {
   font-size: 64px;
+  font-family: var(--header-font-family);
 }
 p {
   font-size: 16px;
@@ -63,4 +64,22 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 30px;
+}
+.project-discription {
+  padding: 120px 60px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-discription {
+    padding: 0;
+    text-align: center;
+  }
 }
