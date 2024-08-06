@@ -30,6 +30,14 @@ h6 {
   margin: 0;
   color: #272142;
 }
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--defualt-font-family);
+}
 h1 {
   font-family: var(--header-font-family);
   color: black;
