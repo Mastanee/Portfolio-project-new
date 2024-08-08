@@ -30,20 +30,28 @@ h6 {
   margin: 0;
   color: #272142;
 }
-.about-hero {
+.content-container {
   padding: 160px 20px;
 }
-.abut-hero-cantent {
+.content {
   margin: 30px;
 }
 
-.about-hero h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-hero h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--defualt-font-family);
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--defualt-font-family);
+}
+.content p {
+  font-size: 14px;
 }
 h1 {
   font-family: var(--header-font-family);
@@ -90,12 +98,15 @@ p {
   h2 {
     font-size: 44px;
   }
-  .about-hero {
+  .content {
     text-align: center;
     padding: 0;
   }
   .hero {
     padding: 80px 20px;
+  }
+  .content h3 {
+    font-size: 18px;
   }
   .project-discription {
     padding: 0;
