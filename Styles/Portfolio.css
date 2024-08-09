@@ -18,6 +18,33 @@ h6 {
   color: #272142;
   font-weight: bold;
 }
+.logo {
+  max-width: 150px;
+  max-height: 48px;
+}
+nav {
+  padding: 20px;
+}
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 24px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  opacity: 1;
+}
 
 .hero {
   background: var(--secondary-color);
@@ -111,5 +138,8 @@ p {
   .project-discription {
     padding: 0;
     text-align: center;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
