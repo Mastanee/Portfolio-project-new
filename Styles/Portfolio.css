@@ -58,7 +58,7 @@ nav li.active a {
   color: #272142;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 120px 20px 10px;
 }
 .content {
   margin: 30px;
@@ -175,7 +175,13 @@ footer .social-links a:hover {
   color: white;
   background-color: var(--branding-color);
 }
-
+footer .term p {
+  font-size: 12px;
+}
+footer .term a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
