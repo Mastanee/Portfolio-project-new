@@ -118,12 +118,56 @@ p {
 .project-discription {
   padding: 120px 60px;
 }
+footer {
+  margin: 60px 0;
+}
+footer .content-box {
+  background-color: var(--secondary-color);
+  padding: 48px 120px;
+  border-radius: 20px;
+  margin: 0 30px 80px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: #272142;
+  font-size: 24px;
+  text-align: center;
+}
+footer .content-box h4 {
+  font-family: var(--header-font-family);
+  font-size: 48px;
+  font-weight: bold;
+}
+footer .content-box p {
+  margin: 0;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  font-size: 24px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 8px 14px 6px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
   }
   h2 {
     font-size: 44px;
+  }
+
+  .btn-branding {
+    font-size: 16px;
   }
   .content {
     text-align: center;
@@ -133,7 +177,7 @@ p {
     padding: 80px 20px;
   }
   .content h3 {
-    font-size: 18px;
+    font-size: 24px;
   }
   .project-discription {
     padding: 0;
@@ -141,5 +185,17 @@ p {
   }
   nav a {
     font-size: 14px;
+  }
+  footer .content-box h4 {
+    font-size: 36px;
+  }
+  footer .content-box p {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  footer .content-box {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align items for aesthetics */
+    text-align: center; /* Center-align the text */
   }
 }
