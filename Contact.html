@@ -65,12 +65,33 @@
 
       <form class="contact-form">
         <div class="form-group">
-          <label for="exampleInputEmail1">Name</label>
-          <input type="text" class="form-control" placeholder="Enter name " />
+          <div class="row">
+            <div class="col">
+              <label>Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter name "
+              />
+            </div>
+            <div class="col">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter Email "
+              />
+            </div>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="exampleInputEmail1" class="mt-4">Email adress</label>
-          <input type="email" class="form-control" placeholder="Enter Email" />
+        <div>
+          <label class="mt-5">Your message</label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="5"
+            placeholder="You can write here... "
+          ></textarea>
         </div>
 
         <button class="btn btn-branding mt-4 float-end">Submit it</button>

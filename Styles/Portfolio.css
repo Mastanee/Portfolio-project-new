@@ -118,6 +118,7 @@ p {
 .project-discription {
   padding: 120px 60px;
 }
+
 .contact-form {
   margin: 120px 30px;
 }
@@ -126,6 +127,9 @@ p {
 
   margin: 10px 0;
   transition: all 100ms ease-in-out;
+}
+.Message-box {
+  height: 120px;
 }
 .form-control:hover {
   border-color: var(--branding-color);
